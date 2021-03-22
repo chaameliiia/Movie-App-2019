@@ -12,8 +12,8 @@ function App() {
   return (
     <BrowserRouter>
       <Navigation />
-      <Route path={["/", "/tesT"]} exact component={Home} />
-      <Route path="/about" component={About} />
+      <Route path={["/", "/tesT/"]} exact component={Home} />
+      <Route path="/about/" component={About} />
       {/* <Route path="/movie-detail" component={Detail} /> */}
       <Route path="/movie/:title" component={Detail} />
     </BrowserRouter>
