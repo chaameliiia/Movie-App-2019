@@ -6,8 +6,8 @@ import "./Navigation.css";
 function Navigation() {
   return (
     <div className="nav">
-      <Link to="/tesT">Home</Link>
-      <Link to="/about">About</Link>
+      <Link to="/tesT/">Home</Link>
+      <Link to="/about/">About</Link>
       {/* <Link to={{
         pathname: "/about",
         state: {
